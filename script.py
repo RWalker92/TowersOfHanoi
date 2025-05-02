@@ -1,6 +1,12 @@
 from stack import Stack
 
 print("\nLet's play Towers of Hanoi!!")
+print("The objective of the game is to move all the disks from the left stack to the right stack.")
+print("You can only move one disk at a time, and you cannot place a larger disk on top of a smaller disk.")
+print("You can only move the top disk of a stack.")
+print("You can move disks between any of the three stacks.")
+print("The game will end when all disks are moved to the right stack.")
+print("Good luck!\n")
 
 #Create the Stacks
 stacks = []
